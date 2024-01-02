@@ -1,0 +1,22 @@
+.menu_bar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.btn_bar {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_bar:active {
+    position: relative;
+    top: 1px;
+}

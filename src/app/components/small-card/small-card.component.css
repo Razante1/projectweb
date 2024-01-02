@@ -1,0 +1,26 @@
+.small_card > img {
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.small_card {
+    max-width: 400px;
+    max-height: fit-content;;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    transform: 3s;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.small_card:hover {
+    background-color: white;
+    transition: 1s;
+    color: black;
+}
